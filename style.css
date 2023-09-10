@@ -1,0 +1,75 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background gradient to the body */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), 50%,rgba(0,0,0,0.4),50%), url(./2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('./image/2.jpg');
+} 
+
+
+/* Style the login form container */
+ /* Style the login form container */
+.form {
+    background: #864a4a;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Style the login form title */
+ h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+} 
+
+/* Style labels for form fields */
+ p {
+    text-align: left;
+    margin-top: 10px;
+    color: #f8f8f8;
+} 
+
+/* Style input fields */
+ input[type="text"],
+input[type="password"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+} 
+
+/* Style the login button */
+input[type="submit"] {
+    background: #cccccc;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Style the login button on hover */
+input[type="submit"]:hover {
+    background: #046e15;
+}
